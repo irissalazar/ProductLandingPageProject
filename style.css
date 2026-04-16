@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background: #3a41c6;
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+}
+
+.hero img {
+  width: 400px;
+}
+
+
+.features {
+  text-align: center;
+  padding: 50px;
+}
+
+.feature-grid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feature {
+  padding: 20px;
+  border: 1px solid #3a41c6;
+  width: 200px;
+}
+
+.buy {
+  text-align: center;
+  padding: 50px;
+  background: #f4f4f4;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #3a41c6 ;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background: #3a41c6;
+  color: white;
+  cursor: pointer;
+  border-radius: 30px;
+}
+
+@media (max-width: 1090px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .feature-grid {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: #111;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    padding: 10px;
+  }
+
+}
