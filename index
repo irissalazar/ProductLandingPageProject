@@ -1,0 +1,73 @@
+<!-- 24-4494-393 Salazar, Iris -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Jesu Life Fan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <nav class="navbar">
+    <h2 class="logo">JesuLife</h2>
+      <ul class="nav-links" id="navLinks">
+        <a href="#hero">Home</a>
+        <a href="#features">Features</a>
+        <a href="#buy">Buy</a>
+</ul>
+
+  </nav>
+</header>
+
+<section id="hero" class="hero">
+  <div class="hero-text">
+    <h1>Stay Cool Anywhere</h1>
+    <p>The powerful and portable Jesu Life Fan.</p>
+    <button onclick="buyNow()">Buy Now</button>
+  </div>
+
+  <div class="hero-img">
+    <img src="fan.webp" alt="Jesu Life Fan">
+  </div>
+</section>
+
+<section id="features" class="features">
+  <h2>Why Choose Jesu Life Fan?</h2>
+
+  <div class="feature-grid">
+    <div class="feature">
+      <h3> Strong Airflow</h3>
+      <p>Powerful cooling anytime, anywhere.</p>
+    </div>
+
+    <div class="feature">
+      <h3> Long Battery</h3>
+      <p>Lasts up to 10 hours of use.</p>
+    </div>
+
+    <div class="feature">
+      <h3> Portable</h3>
+      <p>Lightweight and easy to carry.</p>
+    </div>
+  </div>
+</section>
+
+<section id="buy" class="buy">
+  <h2>Limited Offer</h2>
+  <p id="countdown"></p>
+  <button onclick="buyNow()">Order Now</button>
+</section>
+ 
+<footer>
+  <p>© 2026 Jesu Life Fan</p>
+  <div class="socials">
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
